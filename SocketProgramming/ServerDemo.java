@@ -21,9 +21,9 @@ class ServerDemo{
         String str="Hello from Server Side...";
         ps.println(str);
 
-        //Step 5: close all open stream in reverse order of their creation.
+        //Step 5: close all open stream.
         ps.close();
-        ss.close();
         s.close();
+        ss.close();
     }
 }
