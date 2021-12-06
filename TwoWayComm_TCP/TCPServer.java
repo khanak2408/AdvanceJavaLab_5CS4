@@ -12,7 +12,7 @@ public class TCPServer{
             String str1,str2;
             while((str1=brReadClient.readLine())!=null){
                 System.out.println(str1);
-                str2=brReadClient.readLine();
+                str2=brReadKB.readLine();
                 ps.println(str2);
             }
             ps.close();
